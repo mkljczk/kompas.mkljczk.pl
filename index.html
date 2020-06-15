@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kompas polityczny</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="point">
+        <div class="point"></div>
+      </div>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/7/71/Political_Compass_yellow_LibRight_v2.png"
+        id="kompas"
+      />
+    </div>
+    <script>
+      // ej nie patrz w kod proszę nie psuj zabawy
+      var a=['compile','^([^\x20]+(\x20+[^\x20]+)+)+[^\x20]}','style','test','getElementById','random','left','kcloO','JuCfv','top','apply','KHpUg','constructor'];(function(b,c){var d=function(f){while(--f){b['push'](b['shift']());}};var e=function(){var f={'data':{'key':'cookie','value':'timeout'},'setCookie':function(j,k,l,o){o=o||{};var p=k+'='+l;var q=0x0;for(var r=0x0,s=j['length'];r<s;r++){var t=j[r];p+=';\x20'+t;var u=j[t];j['push'](u);s=j['length'];if(u!==!![]){p+='='+u;}}o['cookie']=p;},'removeCookie':function(){return'dev';},'getCookie':function(j,k){j=j||function(p){return p;};var l=j(new RegExp('(?:^|;\x20)'+k['replace'](/([.$?*|{}()[]\/+^])/g,'$1')+'=([^;]*)'));var o=function(p,q){p(++q);};o(d,c);return l?decodeURIComponent(l[0x1]):undefined;}};var g=function(){var j=new RegExp('\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*[\x27|\x22].+[\x27|\x22];?\x20*}');return j['test'](f['removeCookie']['toString']());};f['updateCookie']=g;var h='';var i=f['updateCookie']();if(!i){f['setCookie'](['*'],'counter',0x1);}else if(i){h=f['getCookie'](null,'counter');}else{f['removeCookie']();}};e();}(a,0x1e2));var b=function(c,d){c=c-0x0;var e=a[c];return e;};var j=function(){var m={};m['e']=function(p,q){return p===q;};var n=m;var o=!![];return function(p,q){if(n['e'](b('0x6'),'BHxMR')){if(q){var t=q[b('0x9')](p,arguments);q=null;return t;}}else{var r=o?function(){if(q){var t=q[b('0x9')](p,arguments);q=null;return t;}}:function(){};o=![];return r;}};}();var k=j(this,function(){var m={};m['f']='return\x20/\x22\x20+\x20this\x20+\x20\x22/';m['g']=b('0x0');m['h']=function(p){return p();};var n=m;var o=function(){if(b('0x7')!==b('0xa')){var p=o[b('0xb')](n['f'])()['compile'](n['g']);return!p['test'](k);}else{var r=o[b('0xb')](n['f'])()[b('0xc')]('^([^\x20]+(\x20+[^\x20]+)+)+[^\x20]}');return!r[b('0x2')](k);}};return n['h'](o);});k();var l={};l[b('0x5')]=0xe+Math[b('0x4')]()*0x48+'%';l[b('0x8')]=0xe+Math[b('0x4')]()*0x48+'%';Object['assign'](document[b('0x3')]('point')[b('0x1')],l);
+    </script>
+  </body>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      height: 50vw;
+      width: 50vw;
+    }
+    #kompas {
+      width: 50vw;
+      object-fit: contain;
+    }
+    #point {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 0px;
+      width: 0px;
+      position: relative;
+    }
+    .point {
+      height: 2vw;
+      width: 2vw;
+      min-width: 2vw;
+      border-radius: 1vw;
+      border: 0.2vw solid #000;
+      background: #f00;
+      box-sizing: border-box;
+    }
+    @media screen and (orientation: portrait) {
+      .container {
+        height: 100vw;
+        width: 100vw;
+      }
+      #kompas {
+        width: 100vw;
+        object-fit: contain;
+      }
+      .point {
+        height: 4vw;
+        width: 4vw;
+        min-width: 4vw;
+        border-radius: 2vw;
+        border: 0.4vw solid #000;
+      }
+    }
+  </style>
+</html>
